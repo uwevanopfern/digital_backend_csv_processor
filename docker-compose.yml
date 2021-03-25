@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+  dsrs:
+    build: ./dsrs_docker_app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./dsrs_docker_app/:/usr/src/dsrs_docker_app/
+    ports:
+      - 8080:8000
+    env_file:
+      - ./dsrs_docker_app/.env.dev
+    depends_on:
+      - dsrs-db
+  dsrs-db:
+    image: postgres:12-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=dsrs
+      - POSTGRES_PASSWORD=dsrs
+      - POSTGRES_DB=dsrs_dev
+
+volumes:
+  postgres_data:

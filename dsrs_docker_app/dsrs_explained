@@ -1,0 +1,34 @@
+Spotify_SpotifyDuo_SGAE_NO_NOK_20200101-20200531.tsv
+
+what is territory: NO(Norway)
+what is path: data\Spotify_SpotifyDuo_SGAE_NO_NOK_20200101-20200531.tsv
+what is period_start: 20200101
+what is period_end: 20200531
+what is currency: NOK(Norwegian krone)
+
+------------------------------------------------------------------------------
+Spotify_SpotifyFamilyPlan_SGAE_ES_EUR_20200101-20200331.tsv
+
+what is territory: ES(Spain)
+what is path: data\Spotify_SpotifyFamilyPlan_SGAE_ES_EUR_20200101-20200331.tsv
+what is period_start: 20200101
+what is period_end: 20200331
+what is currency: EUR(EURO)
+
+------------------------------------------------------------------------------
+Spotify_SpotifyFree_SACEM_CH_CHF_20200201-20200228.tsv
+
+what is territory: CH(Switzerland)
+what is path: data\Spotify_SpotifyFree_SACEM_CH_CHF_20200201-20200228.tsv
+what is period_start: 20200201
+what is period_end: 20200228
+what is currency: CHF(Swiss franc)
+
+------------------------------------------------------------------------------
+Spotify_SpotifyStudent_SGAE_GB_GBP_20200101-20200430.tsv
+
+what is territory: GB(United Kingdom)
+what is path: data\Spotify_SpotifyStudent_SGAE_GB_GBP_20200101-20200430.tsv
+what is period_start: 20200101
+what is period_end: 20200430
+what is currency: GBP(British Pound)

@@ -18,7 +18,7 @@
 
         docker-compose up --build
         
-- Give permission to entrypoint.sh, Cd in dsr_docker_app folder, in digital_backend_sotware and run the below permission command
+- Give permission to entrypoint.sh, cd in dsrs_docker_app folder, in digital_backend_sotware and run the below permission command
 
         chmod +x entrypoint.sh
 

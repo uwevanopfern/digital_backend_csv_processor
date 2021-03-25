@@ -45,7 +45,7 @@
 
         docker-compose exec dsrs python manage.py create_dsrs
 
-- Import Csvs(Create Resource Model): it may take between 20 to 25 minutes to finish importing all of 4000 csv data files
+- Import Csvs(Create Resource Model): it may take between 7 to 25 minutes depending on the speed of your pc to finish importing all of 4000 csv data files
 
         docker-compose exec dsrs python manage.py import_csv_files
 
@@ -59,7 +59,7 @@
 
 - All dsrs: http://localhost:8080/dsrs/
 - Single dsr: http://localhost:8080/dsrs/2
-- Resource Percentile: http://localhost:8080/resources/percentile/12
+- Resource Percentile: http://localhost:8080/resources/percentile/10?period_start=2020-01-01 00:00:00&period_end=2020-05-31 00:00:00&territory=ES
 
 ## ANSWER for this question, DSPs report DSRs containing hundreds of millions of usages. If you were to deploy this solution to production, would you do any change in the database or process, in order to import the usages? Which ones?
 

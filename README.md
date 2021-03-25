@@ -17,6 +17,10 @@
 - Once you are in the root project, Next steps, Build image and fire up container:
 
         docker-compose up --build
+        
+- Give permission to entrypoint.sh, Cd in dsr_docker_app folder, in digital_backend_sotware and run the below permission command
+
+        chmod +x entrypoint.sh
 
 - Make sure that two images are running: check running containers, has to be two, for app backend-software_dsrs_1, for postgreSQL backend-software_dsrs-db_1
 

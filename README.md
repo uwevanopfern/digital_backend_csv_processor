@@ -61,9 +61,7 @@
 - Single dsr: http://localhost:8080/dsrs/2
 - Resource Percentile: http://localhost:8080/resources/percentile/10?period_start=2020-01-01 00:00:00&period_end=2020-05-31 00:00:00&territory=ES
 
-## ANSWER for this question, DSPs report DSRs containing hundreds of millions of usages. If you were to deploy this solution to production, would you do any change in the database or process, in order to import the usages? Which ones?
-
-#### The first two steps belong to the above questions
+## The first two steps belong to the above questions
 
 - Because there is django custom main command, which is:
 
